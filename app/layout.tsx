@@ -20,6 +20,15 @@ export const metadata: Metadata = {
   title: "EmFit BCN | Entrenamiento Presencial de Alta Intensidad",
   description:
     "Sesiones 1-to-1 de entrenamiento de alta intensidad en Sant Adrià de Besòs y Barcelona. Corrección técnica, motivación extrema y resultados reales. @em_fitbcn",
+  manifest: "/site.webmanifest",
+  icons: {
+    icon: [
+      { url: "/favicon.ico" },
+      { url: "/favicon-16x16.png", sizes: "16x16", type: "image/png" },
+      { url: "/favicon-32x32.png", sizes: "32x32", type: "image/png" },
+    ],
+    apple: "/apple-touch-icon.png",
+  },
   openGraph: {
     title: "EmFit BCN | Entrenamiento Presencial de Alta Intensidad",
     description:
